@@ -13,7 +13,7 @@
             elements: '',
             highlight: false,
             highlightClass : ''
-        }, options);
+        }, options); 
         var targetElements = (settings.elements);
         this.keyup(function() {
 
