@@ -1,4 +1,7 @@
-jquery.listsearch.js
-====================
+# List Search
 
-jQuery plugin to find elements from the list.
+jQuery library to search elements from the list.
+
+# Credit
+
+Written by [Maulik SUchak](http://maulik.co)
