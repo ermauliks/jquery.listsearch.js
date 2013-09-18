@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>jQuery Client Side Search</title>
+	<link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+	
+	<div class='search-holder'>
+		<input type='text' id='search' autofocus placeholder='what are you looking for'/>
+	</div>
+	
+	<ul class='list'>
+<li>Singapore</li>
+<li>Slovakia
+</li><li>Slovenia
+</li><li>Solomon Islands
+</li><li>Somalia
+</li><li>South Africa
+</li><li>South Georgia and the South Sandwich Islands
+</li><li>Spain
+</li><li>Spratly Islands
+</li><li>Sri Lanka
+</li><li>Sudan
+</li><li>Suriname
+</li><li>Svalbard
+</li><li>Swaziland
+</li><li>Sweden
+</li><li>Switzerland
+</li><li>Syria
+</li><li>Taiwan
+</li><li>Tajikistan
+</li><li>Tanzania
+</li><li>Thailand
+</li><li>Timor-Leste
+</li><li>Togo
+</li><li>Tokelau
+</li><li>Tonga
+</li><li>Trinidad and Tobago
+</li><li>Tromelin Island
+</li><li>Tunisia
+</li><li>Turkey
+</li><li>Turkmenistan
+</li><li>Turks and Caicos Islands
+</li><li>Tuvalu
+</li><li>Uganda
+</li><li>Ukraine
+</li><li>United Arab Emirates
+</li><li>United Kingdom
+</li><li>United States
+</li><li>Uruguay
+</li><li>Uzbekistan
+</li><li>Vanuatu
+</li><li>Venezuela
+</li><li>Vietnam
+</li><li>Virgin Islands
+</li><li>Wake Island
+</li><li>Wallis and Futuna
+</li><li>West Bank
+</li><li>Western Sahara
+</li><li>Yemen
+</li><li>Zambia
+</li><li>Zimbabwe
+</li> 	
+	</ul>
+
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src='jquery.listsearch.js'></script>
+	<script type="text/javascript">
+        $('#search').listsearch({elements: $('ul li'), highlight: true, highlightClass : 'highlight'});
+	</script>
+</body>
+</html>
